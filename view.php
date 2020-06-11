@@ -1,6 +1,6 @@
 <?php
 try {
-    $conn = new PDO("sqlsrv:server = tcp:dblab2tp047817.database.windows.net,1433; Database = lab2Database", "tp047817", "{your_password_here}");
+    $conn = new PDO("sqlsrv:server = tcp:dblab2tp047817.database.windows.net,1433; Database = lab2Database", "tp047817", "Devara190593");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
